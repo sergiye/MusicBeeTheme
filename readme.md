@@ -2,11 +2,6 @@
 
 # MusicBeeTheme
 
-[![Version](https://vsmarketplacebadges.dev/version/SergiyEgoshyn.MusicBeeTheme.svg?color=007EC6)][marketplace]
-[![Installs](https://vsmarketplacebadges.dev/installs/SergiyEgoshyn.MusicBeeTheme.svg?color=ff4f42)][marketplace]
-[![Rating](https://vsmarketplacebadges.dev/rating-short/SergiyEgoshyn.MusicBeeTheme.svg)][marketplace]
-![Last commit](https://img.shields.io/github/last-commit/sergiye/MusicBeeTheme?color=00AD00)
-
 *MusicBeeTheme is a theme for MusicBee player*
 - `sergiye` - light theme
 - `sergiyeDark` - dark theme, depends on "Onyx.xmlc", so should be saved into `MusicBee\Skins\Dark-Fine Tuned` folder
