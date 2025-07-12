@@ -4,10 +4,10 @@
 
 *MusicBeeTheme is a theme for MusicBee player*
 - `sergiye` - light theme
-- `sergiyeDark` - dark theme, depends on "Onyx.xmlc", so should be saved into `MusicBee\Skins\Dark-Fine Tuned` folder
+- `sergiyeDark` - dark theme
 
 ## Download Latest Version
-The latest stable version can be downloaded from the releases page.
+The latest version can be downloaded from the releases page.
 
 ## How To Use
 It's very simple:
