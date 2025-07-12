@@ -23,7 +23,7 @@ Dark theme
 
 
 ## Download Latest Version
-The latest version can be downloaded from the releases page.
+The latest version can be downloaded from the [releases](https://github.com/sergiye/MusicBeeTheme/releases) page.
 
 ## How To Use
 It's very simple:
