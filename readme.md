@@ -10,6 +10,18 @@
 - `sergiye` - light theme
 - `sergiyeDark` - dark theme
 
+
+## What does it look like?
+
+Here's a preview of the app's UI running on Windows 10:
+
+Light theme
+[<img src="https://github.com/sergiye/MusicBeeTheme/raw/master/assets/light.png" alt="preview"/>](https://github.com/sergiye/MusicBeeTheme/raw/master/assets/light.png)
+
+Dark theme
+[<img src="https://github.com/sergiye/MusicBeeTheme/raw/master/assets/dark.png" alt="preview"/>](https://github.com/sergiye/MusicBeeTheme/raw/master/assets/dark.png)
+
+
 ## Download Latest Version
 The latest version can be downloaded from the releases page.
 
