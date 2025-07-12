@@ -54,26 +54,26 @@
     <!-- Toolbar & Now Playing Header -->
     <element bdr="Background" bg="Background" bg2="Background" fg="Secondary-Text" id="Panel.HeaderControl.Default"/>
     <!-- Address Bar Inactive -->
-    <element bdr="Background" bg="DarkColor" fg="DarkColor" id="Panel.HeaderControl.Highlight"/>
+    <element bdr="Background" bg="Highlight" fg="Primary-Text" id="Panel.HeaderControl.Highlight"/>
     <!--line-->
     <element bg="DarkColor" fg="Primary-Text" id="Panel.LocationBarEdit.Default"/>
     <!-- Address Bar Active -->
-    <element fg="Hightlight-Text" id="Panel.HeaderButtonOverride.Default"/>
+    <element fg="Highlight-Text" id="Panel.HeaderButtonOverride.Default"/>
     <!-- Button color -->
     <element fg="Disabled" id="Panel.HeaderButtonOverride.Disabled"/>
     <!-- Button disabled -->
-    <element bg="DarkColor" id="Panel.HeaderButtonOverride.Highlight"/>
+    <element bg="Highlight" fg="Highlight-Text" id="Panel.HeaderButtonOverride.Highlight"/>
     <!-- bg of highlighted button -->
     <element bdr="Background" bg="Background" fg="Secondary-Text" id="Controls.SearchBox.Default"/>
     <element bg="Background" fg="Secondary-Text" id="Controls.SearchBox.Lowlight"/>
     <element bg="Secondary-Text" id="Controls.SearchBoxSplitter"/>
     <element bdr="Background" id="Panel.SearchBox"/>
     <element bg="Background" fg="Secondary-Text" id="Panel.CommandButtonOverride"/>
-    <element fg="Tertiary-Text" id="CaptionBar.HeaderControl.Default"/>
+    <element fg="Highlight-Text" id="CaptionBar.HeaderControl.Default"/>
     <element fg="DarkColor" id="CaptionBar.HeaderControl.Disabled"/>
     <element bdr="Background" bg="Background" fg="Primary-Text" id="CaptionBar.SearchBox.Default"/>
     <element fg="Tertiary-Text" id="CaptionBar.SearchBox.Lowlight"/>
-    <element bg="DarkColor" fg="Tertiary-Text" id="CaptionBar.CommandButtonOverride"/>
+    <element bg="Background" fg="Tertiary-Text" id="CaptionBar.CommandButtonOverride"/>
     <element fg="Tertiary-Text" id="CaptionBar.CommandIconOverride"/>
     \\ --- A-Z JUMPBAR  
     <element bg="Background" fg="Primary-Text" id="Panel.SubHeader.Default"/>
@@ -243,7 +243,7 @@
     <element fg="Highligh2t" id="PlayerFlat.ProgressButton"/>
     <element fg="Secondary-Text" id="PlayerFlat.Control.Default"/>
     <element fg="Tertiary-Text" id="PlayerFlat.Control.Disabled"/>
-    <element fg="Highlight2" id="PlayerFlat.Control.Highlight"/>
+    <element fg="Highlight" id="PlayerFlat.Control.Highlight"/>
     <element fg="Highlight2" id="PlayerFlat.StarRating.Default"/>
     <element fg="DarkColor2" id="PlayerFlat.StarRating.Lowlight"/>
     <element bdr="Secondary-Text" fg="Primary-Text" id="PlayerFlat.Volume"/>
@@ -263,9 +263,9 @@
     <element bdr="Highlight2" bg="Background" id="PlayerTopFlat.MetroButton.Highlight"/>
     \\ --- SIDEBAR PLAYER   
     <element bdr="Background" bg="Background" fg="Secondary-Text" id="PlayerSidebar.Background"/>
-    <element bg="Primary-Text" fg="DarkColor" id="PlayerSidebar.Control.Default"/>
+    <element bg="Background" fg="Primary-Text" id="PlayerSidebar.Control.Default"/>
     <element fg="Disabled" id="PlayerSidebar.Control.Disabled"/>
-    <element fg="DarkColor" id="PlayerSidebar.Control.Highlight"/>
+    <element fg="Highlight" id="PlayerSidebar.Control.Highlight"/>
     <element fg="Highlight-Text" id="PlayerSidebar.Volume"/>
     <element bdr="Highlight2" bg="DarkColor2" id="PlayerSidebar.ProgressBar"/>
     <element fg="Highlight2" id="PlayerSidebar.ProgressButton"/>
@@ -284,7 +284,7 @@
     <element bdr="Highlight2" fg="Highlight-Text" id="Compact.Player.Volume"/>
     <element fg="Secondary-Text" fg2="DarkColor" id="Compact.Player.Wavebar"/>
     <element fg="Highlight-Text" fg2="Tertiary-Text" id="Compact.Player.Wavebar.Inner"/>
-    <element bdr="Highlight-Text" id="Compact.Player.MetroButton.Default"/>
+    <element bdr="Highlight-Text" fg="Highlight" id="Compact.Player.MetroButton.Default"/>
     <element bdr="Highlight-Text" id="Compact.Player.MetroButton.Highlight"/>
     \\ --- MINI PLAYER
     <element bdr="Background" bg="Background" fg="Secondary-Text" id="MiniPlayer.Background"/>
@@ -295,7 +295,7 @@
     <element fg="Highlight2" id="PlayerMini.ProgressButton"/>
     <element fg="Secondary-Text" id="PlayerMini.Control.Default"/>
     <element fg="Tertiary-Text" id="PlayerMini.Control.Disabled"/>
-    <element fg="Highlight2" id="PlayerMini.Control.Highlight"/>
+    <element fg="Highlight" id="PlayerMini.Control.Highlight"/>
     <element fg="Spectrum2-Medium" id="PlayerMini.Spectrum"/>
     \\ PREFERENCES
 \\ --- PREFERENCES WINDOWS
