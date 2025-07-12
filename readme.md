@@ -1,5 +1,9 @@
 [repo]: https://github.com/sergiye/MusicBeeTheme
 
+[![Release (latest)](https://img.shields.io/github/v/release/sergiye/MusicBeeTheme)](https://github.com/sergiye/MusicBeeTheme/releases/latest)
+![Downloads](https://img.shields.io/github/downloads/sergiye/MusicBeeTheme/total?color=ff4f42)
+![GitHub last commit](https://img.shields.io/github/last-commit/sergiye/MusicBeeTheme?color=00AD00)
+
 # MusicBeeTheme
 
 *MusicBeeTheme is a theme for MusicBee player*
