@@ -53,15 +53,15 @@
     <element id="Panel.HeaderButtonOverride.Default" fg="Highlight-Text" />
     <element id="Panel.HeaderButtonOverride.Disabled" fg="Disabled" />
     <element id="Panel.HeaderButtonOverride.Highlight" bg="Highlight2" fg="Highlight-Text" />
-    <element id="Controls.SearchBox.Default" bg="Background" fg="Secondary-Text" bdr="Background" />
-    <element id="Controls.SearchBox.Lowlight" bg="Background" fg="Secondary-Text" />
+    <element id="Controls.SearchBox.Default" bg="Highlight2" fg="Highlight-Text" bdr="Highlight2" />
+    <element id="Controls.SearchBox.Lowlight" bg="Highlight" fg="Highlight-Text" />
     <element id="Controls.SearchBoxSplitter" bg="Secondary-Text" />
     <element id="Panel.SearchBox" bdr="Background" />
     <element id="Panel.CommandButtonOverride" bg="Background" fg="Secondary-Text" />
     <element id="CaptionBar.HeaderControl.Default" fg="Primary-Text" />
     <element id="CaptionBar.HeaderControl.Disabled" fg="Disabled" />
     <element id="CaptionBar.SearchBox.Default" bg="Background" fg="Primary-Text" bdr="Background" />
-    <element id="CaptionBar.SearchBox.Lowlight" fg="Tertiary-Text" />
+    <element id="CaptionBar.SearchBox.Lowlight" fg="Highlight2" />
     <element id="CaptionBar.CommandButtonOverride" fg="DarkColor" />
     <element id="CaptionBar.CommandIconOverride" fg="DarkColor" />
     \\ --- A-Z JUMPBAR  
@@ -95,8 +95,8 @@
     \\ --- NAVIGATOR BODY (AND LIBRARY EXPLORER 'SUP+INF TAB BORDERS')  
     <element id="Panel.Body.Default" bg="Background" fg="Secondary-Text" bdr="Background" />
     
-    <element id="Panel.Body.Highlight" bg="Highlight" fg="Highlight-Text" />
-    <element id="Panel.Body.Lowlight" bg="Background" fg="Highlight" />
+    <element id="Panel.Body.Highlight" bg="Highlight2" fg="Highlight-Text" />
+    <element id="Panel.Body.Lowlight" bg="Highlight" fg="Highlight-Text" />
     \\ --- INBOX INDICATOR (PODCASTS)
     <element id="Controls.Counter" bg="Highlight" fg="Highlight-Text" />
     <element id="Controls.SubscriptionCounter" bg="Highlight" fg="Highlight-Text" />
@@ -114,12 +114,12 @@
     <element id="Panel.TabSelector.Lowlight" bg="Highlight" />
     \\ --- LIBRARY EXPLORER BODY (AND CURRENT TRACK BODY)
     <element id="Panel.ChildBody.Default" bg="Background" fg="Secondary-Text" />
-    <element id="Panel.ChildBody.Highlight" bg="Highlight" fg="Highlight-Text" />
-    <element id="Panel.ChildBody.Lowlight" bg="DarkColor" fg="Secondary-Text" />
+    <element id="Panel.ChildBody.Highlight" bg="Highlight2" fg="Highlight-Text" />
+    <element id="Panel.ChildBody.Lowlight" bg="Highlight" fg="Highlight-Text" />
     \\ --- CURRENT TRACK HEADER
     <element id="NowPlayingPanel.TabSelector.Default" bg="Background" bg2="Background" fg="Secondary-Text" bdr="Background" />
-    <element id="NowPlayingPanel.TabSelector.Highlight" bg="Highlight" />
-    <element id="NowPlayingPanel.TabSelector.Lowlight" bg="Background" fg="160,160,160" />
+    <element id="NowPlayingPanel.TabSelector.Highlight" bg="Highlight2" />
+    <element id="NowPlayingPanel.TabSelector.Lowlight" bg="Highlight" fg="Highlight-Text" />
     <element id="NowPlayingPanel.SectionHeader" bg="0,255,0" bg2="255,0,0" fg="0,0,255" />
     \\ STATUS BARS
     <element id="Panel.StatusBar.Default" bg="Background" fg="Tertiary-Text" bdr="Background" />
@@ -133,16 +133,16 @@
     <element id="Content[TrackDetail].Body.ListHeader" bg="Background" bg2="Background" fg="Secondary-Text" bdr="Background" />
     <element id="Content[TrackDetail].Body.Default" bg="Background" fg="Secondary-Text" />
     <element id="Content[TrackDetail].Body.Disabled" bg="Background" fg="Disabled" />
-    <element id="Content[TrackDetail].Body.Highlight" bg="Highlight" fg="Highlight-Text" />
-    <element id="Content[TrackDetail].Body.Lowlight" bg="Background" fg="Secondary-Text" />
+    <element id="Content[TrackDetail].Body.Highlight" bg="Highlight2" fg="Highlight-Text" />
+    <element id="Content[TrackDetail].Body.Lowlight" bg="Highlight" fg="Highlight-Text" />
     <element id="Content[TrackDetail].ListAlternating.Default" bg="Background" fg="Secondary-Text" />
     <element id="Content[TrackDetail].ListAlternating.Disabled" bg="Background" fg="Secondary-Text" />
     <element id="NowPlaying[AlbumAndTracks].AlbumSeparatorLine" bg="Background" />
     \\ NEW
     <element id="NowPlayingList[TrackDetail].ListHeader" bg="Background" bg2="Background" fg="Secondary-Text" bdr="Background" />
     <element id="NowPlayingList[TrackDetail].Default" bg="Background" fg="Secondary-Text" bdr="Background" />
-    <element id="NowPlayingList[TrackDetail].Highlight" bg="Highlight" fg="Highlight-Text" bdr="Highlight" />
-    <element id="NowPlayingList[TrackDetail].Lowlight" bg="Background" fg="Secondary-Text" bdr="Background" />
+    <element id="NowPlayingList[TrackDetail].Highlight" bg="Highlight2" fg="Highlight-Text" bdr="Highlight2" />
+    <element id="NowPlayingList[TrackDetail].Lowlight" bg="Highlight" fg="Highlight-Text" bdr="Highlight" />
     <element id="NowPlayingList[TrackDetail].Disabled" fg="Disabled" />
     <element id="NowPlayingList[TrackDetail].ListAlternating.Default" bg="Background" fg="Secondary-Text" />
     <element id="NowPlayingList[TrackDetail].ListAlternating.Disabled" bg="Background" fg="Secondary-Text" />
@@ -151,8 +151,8 @@
     <element id="NowPlayingList.ScrollBarBackground" bg="0,34,35,39" bg2="0,34,35,39" />
     <element id="FilterPanel.ListHeader" bg="Background" bg2="Background" fg="Tertiary-Text" bdr="Background" />
     <element id="FilterPanel.Default" bg="Background" fg="Secondary-Text" bdr="Background" />
-    <element id="FilterPanel.Highlight" bg="Highlight" fg="Highlight-Text" bdr="Highlight" />
-    <element id="FilterPanel.Lowlight" bg="Background" fg="Secondary-Text" bdr="Background" />
+    <element id="FilterPanel.Highlight" bg="Highlight2" fg="Highlight-Text" bdr="Highlight2" />
+    <element id="FilterPanel.Lowlight" bg="Highlight" fg="Highlight-Text" bdr="Highlight" />
     <element id="FilterPanel.Disabled" fg="Disabled" />
     <element id="FilterPanel.ListAlternating.Default" bg="Background" fg="Secondary-Text" />
     <element id="FilterPanel.ListAlternating.Disabled" bg="Background" fg="Secondary-Text" />
@@ -168,8 +168,8 @@
     <element id="Content[Artwork].Header" bg="Background" fg="DarkColor" bdr="Background" />
     <element id="Content[Artwork].HeaderControl.Default" bg="DarkColor" bg2="DarkColor" fg="Primary-Text" bdr="DarkColor" />
     <element id="Content[Artwork].Body.Default" bg="Background" fg="Secondary-Text" />
-    <element id="Content[Artwork].Body.Highlight" bg="Highlight" />
-    <element id="Content[Artwork].Body.Lowlight" bg="Background" />
+    <element id="Content[Artwork].Body.Highlight" bg="Highlight2" />
+    <element id="Content[Artwork].Body.Lowlight" bg="Highlight" />
     <element id="Content[Artwork].ArtworkText" bg="Background" fg="Secondary-Text" />
     <element id="Content[ArtistProfile]" />
     <element id="LyricsPanel" />
@@ -214,9 +214,9 @@
     <element id="PlayerFlat.Control.Disabled" fg="Tertiary-Text" />
     <element id="PlayerFlat.Control.Highlight" fg="Highlight2" />
     <element id="PlayerFlat.StarRating.Default" fg="Highlight2" />
-    <element id="PlayerFlat.StarRating.Lowlight" fg="80,80,80" />
+    <element id="PlayerFlat.StarRating.Lowlight" fg="DarkColor" />
     <element id="PlayerFlat.Volume" fg="220,220,220" bdr="130,130,130" />
-    <element id="PlayerFlat.VolumeButton" bg="220,220,220" bg2="60,60,60" bdr="115,115,115" />
+    <element id="PlayerFlat.VolumeButton" bg="220,220,220" bg2="DarkColor" bdr="115,115,115" />
     <element id="PlayerFlat.VolumeSlider" bg="Primary-Text" bg2="190,190,190" fg="Tertiary-Text" />
     <element id="PlayerFlat.SpectrumDefault" bg="Background" />
     <element id="PlayerFlat.SpectrumDead" bg="Background" />
@@ -243,7 +243,7 @@
     <element id="Compact.RightPanel.Default" bg="Background" fg="Tertiary-Text" />
     <element id="Compact.RightPanel.Disabled" bg="Background" fg="Disabled" />
     <element id="Compact.RightPanel.Highlight" bg="Highlight2" fg="Highlight-Text" />
-    <element id="Compact.RightPanel.Lowlight" bg="Highlight" fg="Primary-Text" />
+    <element id="Compact.RightPanel.Lowlight" bg="Highlight" fg="Highlight-Text" />
     <element id="Compact.Player.Background" bg="Background" fg="Primary-Text" />
     <element id="Compact.Player.ProgressBar" bg="DarkColor" fg="Highlight2" bdr="Background" />
     <element id="Compact.Player.ProgressButton" fg="Highlight2" />
@@ -272,14 +272,14 @@
     <element id="InputPanel.Highlight" fg="Primary-Text" />
     <element id="Controls.FaintLine" bg="60,60,60" />
     <element id="Controls.VerticalMenu.Default" bg="Background" fg="Primary-Text" bdr="Background" />
-    <element id="Controls.VerticalMenu.Highlight" bg="Highlight" fg="Highlight-Text" />
-    <element id="Controls.VerticalMenu.Lowlight" bg="220,220,220" fg="Primary-Text" />
+    <element id="Controls.VerticalMenu.Highlight" bg="Highlight2" fg="Highlight-Text" />
+    <element id="Controls.VerticalMenu.Lowlight" bg="Highlight" fg="Highlight-Text" />
     <element id="Controls.DropdownButton.Default" bg="Background" bg2="Background" fg="Secondary-Text" bdr="Background" />
     <element id="Controls.DropdownButton.Disabled" bg="Disabled" bg2="Disabled" fg="70,70,70" bdr="Disabled" />
     <element id="Controls.InputControl.Default" bg="Background" fg="Secondary-Text" bdr="90,90,90" />
     <element id="Controls.InputControl.Disabled" bg="Disabled" fg="70,70,70" bdr="60,60,60" />
-    <element id="Controls.InputControl.Highlight" bg="220,220,220" fg="Primary-Text" />
-    <element id="Controls.InputControl.Lowlight" bg="220,220,220" fg="Primary-Text" />
+    <element id="Controls.InputControl.Highlight" bg="Highlight2" fg="Highlight-Text" />
+    <element id="Controls.InputControl.Lowlight" bg="Highlight" fg="Highlight-Text" />
     <element id="Controls.ListHeader" bg="120,120,120" bg2="120,120,120" fg="Background" />
     <element id="Controls.LockedInputControl.Default" bg="49,49,49" fg="150,150,150" />
     <element id="Controls.LockedInputControl.Disabled" bg="49,49,49" fg="150,150,150" />
@@ -305,13 +305,13 @@
     \\ --- EDIT TAGS POPSCREEN 
     <element id="EditPanel.Default" bg="DarkColor" fg="Primary-Text" bdr="85,85,85" />
     <element id="EditPanel.Highlight" />
-    <element id="Controls.TabHeader.Default" bg="DarkColor" fg="145,145,145" bdr="80,80,80" />
-    <element id="Controls.TabHeader.Highlight" bg="DarkColor" fg="215,215,215" />
-    <element id="Controls.TabHeader.Lowlight" bg="80,80,80" fg="110,110,110" />
-    <element id="Toolbar.Background" bg="Background" fg="235,235,235" />
-    <element id="Toolbar.Body" bg="Background" fg="235,235,235" />
-    <element id="Toolbar.Counter" bg="Background" fg="235,235,235" />
-    <element id="TagEditorPanel.Header" bg="Background" fg="205,205,205" />
+    <element id="Controls.TabHeader.Default" bg="DarkColor" fg="Primary-Text" bdr="DarkColor" />
+    <element id="Controls.TabHeader.Highlight" bg="Highlight2" fg="Highlight-Text" />
+    <element id="Controls.TabHeader.Lowlight" bg="Highlight" fg="Highlight-Text" />
+    <element id="Toolbar.Background" bg="Background" fg="Primary-Text" />
+    <element id="Toolbar.Body" bg="Background" fg="Primary-Text" />
+    <element id="Toolbar.Counter" bg="Background" fg="Primary-Text" />
+    <element id="TagEditorPanel.Header" bg="Background" fg="Primary-Text" />
     <element id="Controls.StarRating.Default" bg="DarkColor" fg="Highlight2" bdr="DarkColor" />
     \\NOW PLAYING POPUP
     <element id="NowPlayingPopup.Border" bdr="Background" />
