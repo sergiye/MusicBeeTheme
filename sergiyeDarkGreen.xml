@@ -2,8 +2,8 @@
 <root>
   <variables>
     Background=38,28,26
-    Highlight=33,112,207
-    Highlight2=116,178,216
+    Highlight=0,149,107
+    Highlight2=0,219,177
     Highlight-Text=0,0,0
     Primary-Text=200,200,200
     Secondary-Text=150,150,150

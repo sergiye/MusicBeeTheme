@@ -84,7 +84,7 @@
     <element id="TabsBar.TabInCaptionBarBlended.Default" bg="Background" fg="Primary-Text" />
     <element id="TabsBar.TabInCaptionBarBlended.Highlight" bg="Highlight2" bg2="Highlight2" fg="Highlight-Text" />
     <element id="TabsBar.TabInCaptionBarBlended.AddButton" bg="Background" fg="Highlight" />
-    <element id="TabsBar.TabInCaptionBarBlended.BorderLine" bdr="DarkGray" />
+    <element id="TabsBar.TabInCaptionBarBlended.BorderLine" bdr="Background" />
     <element id="TabsBar.TabInCaptionBarBlended.Separator" bg="DarkGray" />
     \\ TABS IN CAPTION BAR WITH PLAYER ON TOP
     <element id="TabsBar.TabInCaptionBarTop.Default" bg="Background" bg2="Background" fg="Primary-Text" bdr="Background" />
