@@ -9,8 +9,8 @@ namespace ImgColorReplace {
 
     static void Main() {
 
-      Color oldColor = Color.FromArgb(18, 8, 16); //todo: from console
-      Color newColor = Color.FromArgb(38, 28, 26); //todo: from console
+      Color oldColor = Color.FromArgb(38,28,26); //todo: from console
+      Color newColor = Color.FromArgb(43,43,43); //todo: from console
 
       while (true) {
         Console.WriteLine("Enter base64 image to replace color or empty string to exit:");
