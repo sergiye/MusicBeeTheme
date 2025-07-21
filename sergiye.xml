@@ -7,8 +7,8 @@
     Highlight-Text=0,0,0
     Primary-Text=75,75,75
     Secondary-Text=25,25,25
-    Disabled=227,227,227
-    DarkGray=180,180,180
+    Disabled=235,230,215
+    DarkGray=204,204,204
     Spectrum-Low=0,198,255
     Spectrum-Medium=186,224,232
     Spectrum-High=152,178,220
@@ -30,7 +30,7 @@
     \\ MENUS
     <element id="Menu.ParentItem.Highlight" bg="Highlight" fg="Highlight-Text" bdr="Background" />
     <element id="Menu.ParentItem.Pressed" bg="Highlight" fg="Highlight-Text" />
-    <element id="Menu.DropDown.Default" bg="Background" fg="Primary-Text" bdr="DarkGray" />
+    <element id="Menu.DropDown.Default" bg="Background" fg="Secondary-Text" bdr="DarkGray" />
     <element id="Menu.DropDown.Highlight" bg="Highlight" />
     <element id="Menu.DropDown.HighlightText" fg="Highlight-Text" />
     <element id="Menu.DropDown.Disabled" fg="Disabled" />
@@ -188,9 +188,9 @@
     <element id="ArtworkPanel" />
     <element id="Controls.ArtworkFrame" bdr="DarkGray" />
     \\ --- RATINGS  
-    <element id="Panel.StarRating.Default" fg="Highlight2" fg2="DarkGray" />
+    <element id="Panel.StarRating.Default" fg="Highlight" fg2="Highlight2" />
     <element id="Panel.StarRating.Highlight" fg="Highlight-Text" fg2="Secondary-Text" />
-    <element id="Panel.StarRating.Lowlight" fg="Highlight2" fg2="Highlight-Text" />
+    <element id="Panel.StarRating.Lowlight" fg="Highlight" fg2="Highlight-Text" />
     <element id="Panel.NotLovedIcon.Highlight" fg="Highlight-Text" fg2="Secondary-Text" />
     <element id="Panel.NotLovedIcon.Lowlight" fg2="Highlight-Text" />
     \\ --- NOW PLAYING DOCKED IN CENTER
@@ -211,8 +211,8 @@
     <element id="Player.Control.Highlight" bg="Primary-Text" bg2="Primary-Text" fg="Highlight" />
     <element id="Player.Volume" fg="Primary-Text" bdr="DarkGray" />
     <element id="Player.VolumeButton" bg="Primary-Text" bg2="Primary-Text" fg="Background" bdr="Background" />
-    <element id="Player.StarRating.Default" fg="Highlight2" />
-    <element id="Player.StarRating.Lowlight" fg="Highlight2" />
+    <element id="Player.StarRating.Default" fg="Highlight" />
+    <element id="Player.StarRating.Lowlight" fg="Highlight" />
     <element id="Player.Wavebar" bg="Background" fg="Primary-Text" fg2="DarkGray" />
     <element id="Player.Wavebar.Inner" bg="Background" fg="Secondary-Text" fg2="DarkGray" />
     \\ --- FLAT PLAYER
@@ -224,7 +224,7 @@
     <element id="PlayerFlat.Control.Disabled" fg="Disabled" />
     <element id="PlayerFlat.Control.Highlight" fg="Highlight" />
     <element id="PlayerFlat.StarRating.Default" fg="Highlight" />
-    <element id="PlayerFlat.StarRating.Lowlight" fg="Highlight2" />
+    <element id="PlayerFlat.StarRating.Lowlight" fg="Highlight" />
     <element id="PlayerFlat.Volume" fg="Primary-Text" bdr="DarkGray" />
     <element id="PlayerFlat.VolumeButton" bg="Primary-Text" bg2="DarkGray" bdr="DarkGray" />
     <element id="PlayerFlat.VolumeSlider" bg="DarkGray" bg2="Primary-Text" fg="Primary-Text" />
@@ -279,8 +279,8 @@
     <element id="Compact.Player.MetroButton.Highlight" bdr="Highlight2" />
     \\ --- MINI PLAYER
     <element id="MiniPlayer.Background" bg="Background" fg="Secondary-Text" bdr="Background" />
-    <element id="MiniPlayer.StarRating.Default" fg="Primary-Text" />
-    <element id="MiniPlayer.StarRating.Lowlight" fg="Highlight2" />
+    <element id="MiniPlayer.StarRating.Default" fg="Highlight" />
+    <element id="MiniPlayer.StarRating.Lowlight" fg="Highlight" />
     <element id="PlayerMini.Background" bg="Background" bg2="Background" fg="Primary-Text" />
     <element id="PlayerMini.ProgressBar" bg="Highlight2" fg="Highlight" />
     <element id="PlayerMini.ProgressButton" fg="DarkGray" />
@@ -290,30 +290,30 @@
     <element id="PlayerMini.Spectrum" fg="Spectrum2-Medium" />
     \\ PREFERENCES
 \\ --- PREFERENCES WINDOWS
-    <element id="InputPanel.Default" bg="Background" fg="Primary-Text" bdr="Background" />
+    <element id="InputPanel.Default" bg="Background" fg="Secondary-Text" bdr="Background" />
     <element id="InputPanel.Highlight" fg="Primary-Text" />
     <element id="Controls.FaintLine" bg="DarkGray" />
-    <element id="Controls.VerticalMenu.Default" bg="Background" fg="Primary-Text" bdr="Background" />
+    <element id="Controls.VerticalMenu.Default" bg="Background" fg="Secondary-Text" bdr="Background" />
     <element id="Controls.VerticalMenu.Highlight" bg="Highlight" fg="Highlight-Text" />
     <element id="Controls.VerticalMenu.Lowlight" bg="Highlight2" fg="Highlight-Text" />
     <element id="Controls.DropdownButton.Default" bg="DarkGray" bg2="DarkGray" fg="Secondary-Text" bdr="Background" />
-    <element id="Controls.DropdownButton.Disabled" bg="Disabled" bg2="Disabled" fg="DarkGray" bdr="Background" />
-    <element id="Controls.InputControl.Default" bg="DarkGray" fg="Primary-Text" bdr="Background" />
-    <element id="Controls.InputControl.Disabled" bg="Disabled" fg="DarkGray" bdr="Background" />
+    <element id="Controls.DropdownButton.Disabled" bg="Disabled" bg2="Disabled" fg="Primary-Text" bdr="Background" />
+    <element id="Controls.InputControl.Default" bg="Background" fg="Secondary-Text" bdr="DarkGray" />
+    <element id="Controls.InputControl.Disabled" bg="Disabled" fg="Primary-Text" bdr="DarkGray" />
     <element id="Controls.InputControl.Highlight" bg="Highlight" fg="Highlight-Text" />
     <element id="Controls.InputControl.Lowlight" bg="Highlight2" fg="Highlight-Text" />
-    <element id="Controls.ListHeader" bg="DarkGray" bg2="DarkGray" fg="Primary-Text" bdr="Background" />
-    <element id="Controls.LockedInputControl.Default" bg="DarkGray" fg="Primary-Text" />
-    <element id="Controls.LockedInputControl.Disabled" bg="DarkGray" fg="Disabled" />
-    <element id="Controls.Button.Default" bg="DarkGray" fg="Primary-Text" bdr="Background" />
-    <element id="Controls.Button.Highlight" bg="Highlight" fg="Highlight-Text" bdr="Highlight" />
-    <element id="Controls.Button.Disabled" bg="Disabled" fg="DarkGray" bdr="Background" />
-    <element id="Controls.RadioButton.Default" bg="Highlight2" />
-    <element id="Controls.RadioButton.Disabled" bg="DarkGray" />
-    <element id="Controls.SliderLine.Default" fg="Secondary-Text" />
+    <element id="Controls.ListHeader" bg="DarkGray" bg2="DarkGray" fg="Primary-Text" bdr="DarkGray" />
+    <element id="Controls.LockedInputControl.Default" bg="Background" fg="Primary-Text" />
+    <element id="Controls.LockedInputControl.Disabled" bg="Disabled" fg="Primary-Text" />
+    <element id="Controls.Button.Default" bg="DarkGray" fg="Primary-Text" bdr="DarkGray" />
+    <element id="Controls.Button.Highlight" bg="Highlight" fg="Highlight-Text" bdr="DarkGray" />
+    <element id="Controls.Button.Disabled" bg="Disabled" fg="Primary-Text" bdr="DarkGray" />
+    <element id="Controls.RadioButton.Default" bg="Highlight" />
+    <element id="Controls.RadioButton.Disabled" bg="Disabled" />
+    <element id="Controls.SliderLine.Default" fg="Primary-Text" />
     <element id="Controls.SliderLine.Disabled" fg="Disabled" />
-    <element id="Controls.SliderButton.Default" bg="Primary-Text" fg="Primary-Text" />
-    <element id="Controls.SliderButton.Disabled" bg="Disabled" fg="DarkGray" />
+    <element id="Controls.SliderButton.Default" bg="Highlight" fg="Highlight-Text" />
+    <element id="Controls.SliderButton.Disabled" bg="Disabled" fg="Primary-Text" />
     \\ --- SCROLLBARS  
     <element id="Controls.ScrollBar.Default" bg="DarkGray" bg2="DarkGray" />
     <element id="Controls.ScrollBarThumb.Default" bg="DarkGray" bg2="DarkGray" fg="Primary-Text" bdr="DarkGray" />
@@ -334,7 +334,7 @@
     <element id="Toolbar.Body" bg="Background" fg="Primary-Text" />
     <element id="Toolbar.Counter" bg="Background" fg="Primary-Text" />
     <element id="TagEditorPanel.Header" bg="Background" fg="Primary-Text" />
-    <element id="Controls.StarRating.Default" bg="DarkGray" fg="Highlight2" bdr="DarkGray" />
+    <element id="Controls.StarRating.Default" bg="Background" fg="Highlight" bdr="DarkGray" />
     \\NOW PLAYING POPUP
     <element id="NowPlayingPopup.Border" bdr="Background" />
     <element id="NowPlayingPopup.Body" bg="Background" bg2="Background" fg="Primary-Text" fg2="DarkGray" bdr="Background" />
