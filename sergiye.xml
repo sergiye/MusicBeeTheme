@@ -296,8 +296,8 @@
     <element id="Controls.VerticalMenu.Default" bg="Background" fg="Secondary-Text" bdr="Background" />
     <element id="Controls.VerticalMenu.Highlight" bg="Highlight" fg="Highlight-Text" />
     <element id="Controls.VerticalMenu.Lowlight" bg="Highlight2" fg="Highlight-Text" />
-    <element id="Controls.DropdownButton.Default" bg="DarkGray" bg2="DarkGray" fg="Secondary-Text" bdr="Background" />
-    <element id="Controls.DropdownButton.Disabled" bg="Disabled" bg2="Disabled" fg="Primary-Text" bdr="Background" />
+    <element id="Controls.DropdownButton.Default" bg="Highlight2" bg2="Highlight2" fg="Highlight-Text" bdr="DarkGray" />
+    <element id="Controls.DropdownButton.Disabled" bg="Disabled" bg2="Disabled" fg="Primary-Text" bdr="DarkGray" />
     <element id="Controls.InputControl.Default" bg="Background" fg="Secondary-Text" bdr="DarkGray" />
     <element id="Controls.InputControl.Disabled" bg="Disabled" fg="Primary-Text" bdr="DarkGray" />
     <element id="Controls.InputControl.Highlight" bg="Highlight" fg="Highlight-Text" />
