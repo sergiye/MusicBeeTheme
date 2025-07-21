@@ -5,8 +5,8 @@
     Highlight=33,112,207
     Highlight2=116,178,216
     Highlight-Text=0,0,0
-    Primary-Text=200,200,200
-    Secondary-Text=150,150,150
+    Primary-Text=255,255,255
+    Secondary-Text=200,200,200
     Disabled=140,140,140
     DarkGray=71,71,71
     Spectrum-Low=0,198,255
@@ -30,7 +30,7 @@
     \\ MENUS
     <element id="Menu.ParentItem.Highlight" bg="Highlight" fg="Highlight-Text" bdr="Background" />
     <element id="Menu.ParentItem.Pressed" bg="Highlight" fg="Highlight-Text" />
-    <element id="Menu.DropDown.Default" bg="Background" fg="Primary-Text" bdr="DarkGray" />
+    <element id="Menu.DropDown.Default" bg="Background" fg="Secondary-Text" bdr="DarkGray" />
     <element id="Menu.DropDown.Highlight" bg="Highlight" />
     <element id="Menu.DropDown.HighlightText" fg="Highlight-Text" />
     <element id="Menu.DropDown.Disabled" fg="Disabled" />
@@ -290,10 +290,10 @@
     <element id="PlayerMini.Spectrum" fg="Spectrum2-Medium" />
     \\ PREFERENCES
 \\ --- PREFERENCES WINDOWS
-    <element id="InputPanel.Default" bg="Background" fg="Primary-Text" bdr="Background" />
+    <element id="InputPanel.Default" bg="Background" fg="Secondary-Text" bdr="Background" />
     <element id="InputPanel.Highlight" fg="Primary-Text" />
     <element id="Controls.FaintLine" bg="DarkGray" />
-    <element id="Controls.VerticalMenu.Default" bg="Background" fg="Primary-Text" bdr="Background" />
+    <element id="Controls.VerticalMenu.Default" bg="Background" fg="Secondary-Text" bdr="Background" />
     <element id="Controls.VerticalMenu.Highlight" bg="Highlight" fg="Highlight-Text" />
     <element id="Controls.VerticalMenu.Lowlight" bg="Highlight2" fg="Highlight-Text" />
     <element id="Controls.DropdownButton.Default" bg="DarkGray" bg2="DarkGray" fg="Secondary-Text" bdr="Background" />
