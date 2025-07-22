@@ -297,23 +297,23 @@
     <element id="Controls.VerticalMenu.Highlight" bg="Highlight" fg="Highlight-Text" />
     <element id="Controls.VerticalMenu.Lowlight" bg="Highlight2" fg="Highlight-Text" />
     <element id="Controls.DropdownButton.Default" bg="Highlight2" bg2="Highlight2" fg="Highlight-Text" bdr="DarkGray" />
-    <element id="Controls.DropdownButton.Disabled" bg="Disabled" bg2="Disabled" fg="Primary-Text" bdr="DarkGray" />
+    <element id="Controls.DropdownButton.Disabled" bg="Disabled" bg2="Disabled" fg="Highlight-Text" bdr="DarkGray" />
     <element id="Controls.InputControl.Default" bg="Background" fg="Secondary-Text" bdr="DarkGray" />
-    <element id="Controls.InputControl.Disabled" bg="Disabled" fg="Primary-Text" bdr="DarkGray" />
+    <element id="Controls.InputControl.Disabled" bg="Disabled" fg="Secondary-Text" bdr="DarkGray" />
     <element id="Controls.InputControl.Highlight" bg="Highlight" fg="Highlight-Text" />
     <element id="Controls.InputControl.Lowlight" bg="Highlight2" fg="Highlight-Text" />
     <element id="Controls.ListHeader" bg="DarkGray" bg2="DarkGray" fg="Primary-Text" bdr="DarkGray" />
     <element id="Controls.LockedInputControl.Default" bg="Background" fg="Primary-Text" />
-    <element id="Controls.LockedInputControl.Disabled" bg="Disabled" fg="Primary-Text" />
-    <element id="Controls.Button.Default" bg="DarkGray" fg="Primary-Text" bdr="DarkGray" />
+    <element id="Controls.LockedInputControl.Disabled" bg="Disabled" fg="Highlight-Text" />
+    <element id="Controls.Button.Default" bg="Highlight2" fg="Highlight-Text" bdr="DarkGray" />
     <element id="Controls.Button.Highlight" bg="Highlight" fg="Highlight-Text" bdr="DarkGray" />
-    <element id="Controls.Button.Disabled" bg="Disabled" fg="Primary-Text" bdr="DarkGray" />
+    <element id="Controls.Button.Disabled" bg="Disabled" fg="Highlight-Text" bdr="DarkGray" />
     <element id="Controls.RadioButton.Default" bg="Highlight" />
     <element id="Controls.RadioButton.Disabled" bg="Disabled" />
     <element id="Controls.SliderLine.Default" fg="Primary-Text" />
     <element id="Controls.SliderLine.Disabled" fg="Disabled" />
     <element id="Controls.SliderButton.Default" bg="Highlight" fg="Highlight-Text" />
-    <element id="Controls.SliderButton.Disabled" bg="Disabled" fg="Primary-Text" />
+    <element id="Controls.SliderButton.Disabled" bg="Disabled" fg="Highlight-Text" />
     \\ --- SCROLLBARS  
     <element id="Controls.ScrollBar.Default" bg="DarkGray" bg2="DarkGray" />
     <element id="Controls.ScrollBarThumb.Default" bg="DarkGray" bg2="DarkGray" fg="Primary-Text" bdr="DarkGray" />
