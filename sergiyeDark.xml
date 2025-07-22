@@ -199,7 +199,7 @@
 \\ --- MAIN PLAYER  
     <element id="Player.Background" bg="Background" bg2="Background" fg="Secondary-Text" bdr="Background" />
     <element id="Player.DisplayPanel" bg="Background" bg2="Background" fg="Primary-Text" />
-    <element id="Player.ProgressBar" bg="DarkGray" bg2="DarkGray" fg="Highlight-Text" bdr="Highlight" />
+    <element id="Player.ProgressBar" bg="Highlight2" bg2="Highlight" fg="Highlight-Text" bdr="Highlight2" />
 <element id="Player.SpectrumDefault" bg="Background" />
     <element id="Player.SpectrumDead" bg="Background" />
     <element id="Player.SpectrumLow" bg="Spectrum-Low" />
@@ -241,7 +241,7 @@
     <element id="PlayerTopFlat.Background" bg="Background" bg2="Background" />
     <element id="PlayerTopFlat.DisplayPanel" fg="Primary-Text" fg2="Secondary-Text" bg="Background" bg2="Background" />
     <element id="PlayerTopFlat.ProgressBar" bg="Highlight2" fg="Highlight" bdr="Highlight2" />
-    <element id="PlayerTopFlat.ProgressBarMiddle" bg="DarkGray" />
+    <element id="PlayerTopFlat.ProgressBarMiddle" bg="Highlight2" />
     <element id="PlayerTopFlat.ProgressButton" fg="DarkGray" />
     <element id="PlayerTopFlat.Control.Default" fg="Secondary-Text" />
     <element id="PlayerTopFlat.Control.Highlight" fg="Highlight" />
