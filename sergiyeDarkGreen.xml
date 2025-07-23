@@ -9,11 +9,6 @@
     Secondary-Text=200,200,200
     Disabled=100,100,100
     DarkGray=71,71,71
-    Spectrum-Low=0,198,255
-    Spectrum-Medium=186,224,232
-    Spectrum-High=152,178,220
-    Spectrum2-Medium=158,15,68
-    Spectrum2-High=60,8,18
   </variables>
   <colours id="Default">
     \\ APP WINDOW  
@@ -189,8 +184,8 @@
     <element id="Controls.ArtworkFrame" bdr="DarkGray" />
     \\ --- RATINGS  
     <element id="Panel.StarRating.Default" fg="Highlight" fg2="Highlight2" />
-    <element id="Panel.StarRating.Highlight" fg="Highlight-Text" fg2="Secondary-Text" />
-    <element id="Panel.StarRating.Lowlight" fg="Highlight" fg2="Highlight-Text" />
+    <element id="Panel.StarRating.Highlight" fg="Highlight" fg2="Highlight2" />
+    <element id="Panel.StarRating.Lowlight" fg="Highlight" fg2="Highlight2" />
     <element id="Panel.NotLovedIcon.Highlight" fg="Highlight-Text" fg2="Secondary-Text" />
     <element id="Panel.NotLovedIcon.Lowlight" fg2="Highlight-Text" />
     \\ --- NOW PLAYING DOCKED IN CENTER
@@ -200,19 +195,20 @@
     <element id="Player.Background" bg="Background" bg2="Background" fg="Secondary-Text" bdr="Background" />
     <element id="Player.DisplayPanel" bg="Background" bg2="Background" fg="Primary-Text" />
     <element id="Player.ProgressBar" bg="Highlight2" bg2="Highlight" fg="Highlight-Text" bdr="Highlight2" />
-<element id="Player.SpectrumDefault" bg="Background" />
-    <element id="Player.SpectrumDead" bg="Background" />
-    <element id="Player.SpectrumLow" bg="Spectrum-Low" />
-    <element id="Player.SpectrumMedium" bg="Spectrum-Medium" />
-    <element id="Player.SpectrumHigh" bg="Spectrum-High" />
-    <element id="Player.SpectrumVisualiser" bg="Background" bg2="Background" fg="Background" fg2="Spectrum2-Medium" bdr="Spectrum2-High" />
+    <element id="Player.SpectrumVisualiser" bg="Background" bg2="Background" fg="Highlight" fg2="Highlight2" bdr="DarkGray" />
+    <element id="Player.SpectrumVisualiserFill" fg="Highlight" /> <!-- when player stopped -->
+    <element id="Player.SpectrumDefault" bg="Disabled" />
+    <element id="Player.SpectrumDead" bg="Highlight2" />
+    <element id="Player.SpectrumLow" bg="Highlight" />
+    <element id="Player.SpectrumMedium" bg="Highlight" />
+    <element id="Player.SpectrumHigh" bg="Highlight2" />
     <element id="Player.Control.Default" bg="Background" bg2="Background" fg="100,100,100" bdr="Background" />
     <element id="Player.Control.Disabled" bg="Disabled" bg2="Disabled" fg="Primary-Text" />
     <element id="Player.Control.Highlight" bg="Primary-Text" bg2="Primary-Text" fg="Highlight" />
     <element id="Player.Volume" fg="Primary-Text" bdr="DarkGray" />
     <element id="Player.VolumeButton" bg="Primary-Text" bg2="Primary-Text" fg="Background" bdr="Background" />
     <element id="Player.StarRating.Default" fg="Highlight" />
-    <element id="Player.StarRating.Lowlight" fg="Highlight" />
+    <element id="Player.StarRating.Lowlight" fg="Disabled" />
     <element id="Player.Wavebar" bg="Background" fg="Primary-Text" fg2="DarkGray" />
     <element id="Player.Wavebar.Inner" bg="Background" fg="Secondary-Text" fg2="DarkGray" />
     \\ --- FLAT PLAYER
@@ -224,16 +220,15 @@
     <element id="PlayerFlat.Control.Disabled" fg="Disabled" />
     <element id="PlayerFlat.Control.Highlight" fg="Highlight" />
     <element id="PlayerFlat.StarRating.Default" fg="Highlight" />
-    <element id="PlayerFlat.StarRating.Lowlight" fg="Highlight" />
+    <element id="PlayerFlat.StarRating.Lowlight" fg="Disabled" />
     <element id="PlayerFlat.Volume" fg="Primary-Text" bdr="DarkGray" />
     <element id="PlayerFlat.VolumeButton" bg="Primary-Text" bg2="DarkGray" bdr="DarkGray" />
     <element id="PlayerFlat.VolumeSlider" bg="DarkGray" bg2="Primary-Text" fg="Primary-Text" />
-    <element id="PlayerFlat.SpectrumDefault" bg="Background" />
-    <element id="PlayerFlat.SpectrumDead" bg="Background" />
-    <element id="PlayerFlat.SpectrumLow" bg="Spectrum-Low" />
-    <element id="PlayerFlat.SpectrumMedium" bg="Spectrum-Medium" />
-    <element id="PlayerFlat.SpectrumVisualiser" bg="Background" bg2="Background" fg="Background" fg2="Spectrum2-Medium" bdr="Spectrum2-High" />
-    <element id="PlayerFlat.SpectrumHigh" bg="Spectrum-High" />
+    <element id="PlayerFlat.SpectrumDefault" bg="Disabled" />
+    <element id="PlayerFlat.SpectrumDead" bg="Highlight2" />
+    <element id="PlayerFlat.SpectrumLow" bg="Highlight" />
+    <element id="PlayerFlat.SpectrumMedium" bg="Highlight" />
+    <element id="PlayerFlat.SpectrumHigh" bg="Highlight" />
     <element id="PlayerFlat.Wavebar" bg="Background" fg="Highlight2" fg2="Primary-Text" />
     <element id="PlayerFlat.Wavebar.Inner" bg="Background" fg="Highlight2" fg2="Highlight" />
     <element id="PlayerFlat.MetroButton.Default" bg="Background" bdr="DarkGray" />
@@ -252,6 +247,14 @@
     <element id="PlayerTopFlat.VolumeIcon" fg="Secondary-Text" />
     <element id="PlayerTopFlat.MetroButton.Default" bg="Background" bdr="DarkGray" />
     <element id="PlayerTopFlat.MetroButton.Highlight" bg="Background" bdr="Highlight2" />
+    <element id="PlayerTopFlat.StarRating.Default" fg="Highlight" />
+    <element id="PlayerTopFlat.StarRating.Lowlight" fg="Disabled" />
+    <element id="PlayerTopFlat.NotLovedIcon" fg="Disabled" />
+    <element id="PlayerTopFlat.SpectrumDefault" bg="Disabled" />
+    <element id="PlayerTopFlat.SpectrumDead" bg="Highlight2" />
+    <element id="PlayerTopFlat.SpectrumLow" bg="Highlight" />
+    <element id="PlayerTopFlat.SpectrumMedium" bg="Highlight" />
+    <element id="PlayerTopFlat.SpectrumHigh" bg="Highlight2" />
     \\ --- SIDEBAR PLAYER   
     <element id="PlayerSidebar.Background" bg="Background" fg="Secondary-Text" bdr="Background" />
     <element id="PlayerSidebar.Control.Default" bg="Background" fg="Primary-Text" />
@@ -278,16 +281,13 @@
     <element id="Compact.Player.MetroButton.Default" fg="Highlight" bdr="Highlight-Text" />
     <element id="Compact.Player.MetroButton.Highlight" bdr="Highlight2" />
     \\ --- MINI PLAYER
-    <element id="MiniPlayer.Background" bg="Background" fg="Secondary-Text" bdr="Background" />
-    <element id="MiniPlayer.StarRating.Default" fg="Highlight" />
-    <element id="MiniPlayer.StarRating.Lowlight" fg="Highlight" />
     <element id="PlayerMini.Background" bg="Background" bg2="Background" fg="Primary-Text" />
     <element id="PlayerMini.ProgressBar" bg="Highlight2" fg="Highlight" />
     <element id="PlayerMini.ProgressButton" fg="DarkGray" />
     <element id="PlayerMini.Control.Default" fg="Primary-Text" />
     <element id="PlayerMini.Control.Disabled" fg="Disabled" />
     <element id="PlayerMini.Control.Highlight" fg="Highlight" />
-    <element id="PlayerMini.Spectrum" fg="Spectrum2-Medium" />
+    <element id="PlayerMini.Spectrum" fg="Highlight" />
     \\ PREFERENCES
 \\ --- PREFERENCES WINDOWS
     <element id="InputPanel.Default" bg="Background" fg="Secondary-Text" bdr="Background" />
