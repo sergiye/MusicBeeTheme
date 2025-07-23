@@ -205,8 +205,8 @@
     <element id="Player.Control.Default" bg="Background" bg2="Background" fg="100,100,100" bdr="Background" />
     <element id="Player.Control.Disabled" bg="Disabled" bg2="Disabled" fg="Primary-Text" />
     <element id="Player.Control.Highlight" bg="Primary-Text" bg2="Primary-Text" fg="Highlight" />
-    <element id="Player.Volume" fg="Primary-Text" bdr="DarkGray" />
-    <element id="Player.VolumeButton" bg="Primary-Text" bg2="Primary-Text" fg="Background" bdr="Background" />
+    <element id="Player.Volume" fg="Highlight" bdr="DarkGray" />
+    <element id="Player.VolumeButton" bg="Primary-Text" bg2="Primary-Text" fg="Background" bdr="DarkGray" />
     <element id="Player.StarRating.Default" fg="Highlight" />
     <element id="Player.StarRating.Lowlight" fg="Disabled" />
     <element id="Player.Wavebar" bg="Background" fg="Primary-Text" fg2="DarkGray" />
@@ -221,9 +221,9 @@
     <element id="PlayerFlat.Control.Highlight" fg="Highlight" />
     <element id="PlayerFlat.StarRating.Default" fg="Highlight" />
     <element id="PlayerFlat.StarRating.Lowlight" fg="Disabled" />
-    <element id="PlayerFlat.Volume" fg="Primary-Text" bdr="DarkGray" />
-    <element id="PlayerFlat.VolumeButton" bg="Primary-Text" bg2="DarkGray" bdr="DarkGray" />
-    <element id="PlayerFlat.VolumeSlider" bg="DarkGray" bg2="Primary-Text" fg="Primary-Text" />
+    <element id="PlayerFlat.Volume" fg="Highlight" bdr="DarkGray" />
+    <element id="PlayerFlat.VolumeButton" bg="Primary-Text" bg2="Secondary-Text" bdr="DarkGray" />
+    <element id="PlayerFlat.VolumeSlider" bg="Highlight" bg2="Highlight2" fg="Highlight-Text" />
     <element id="PlayerFlat.SpectrumDefault" bg="Disabled" />
     <element id="PlayerFlat.SpectrumDead" bg="Highlight2" />
     <element id="PlayerFlat.SpectrumLow" bg="Highlight" />
@@ -242,8 +242,8 @@
     <element id="PlayerTopFlat.Control.Highlight" fg="Highlight" />
     <element id="PlayerTopFlat.Control.Disabled" fg="Disabled" />
     <element id="PlayerTopFlat.TrackPosition" fg="Secondary-Text" />
-    <element id="PlayerTopFlat.VolumeSlideBar" fg="Highlight2" />
-    <element id="PlayerTopFlat.VolumeSliderButton" fg="Secondary-Text" />
+    <element id="PlayerTopFlat.VolumeSlideBar" fg="Highlight" />
+    <element id="PlayerTopFlat.VolumeSliderButton" fg="Highlight2" />
     <element id="PlayerTopFlat.VolumeIcon" fg="Secondary-Text" />
     <element id="PlayerTopFlat.MetroButton.Default" bg="Background" bdr="DarkGray" />
     <element id="PlayerTopFlat.MetroButton.Highlight" bg="Background" bdr="Highlight2" />
@@ -260,7 +260,7 @@
     <element id="PlayerSidebar.Control.Default" bg="Background" fg="Primary-Text" />
     <element id="PlayerSidebar.Control.Disabled" fg="Disabled" />
     <element id="PlayerSidebar.Control.Highlight" fg="Highlight" />
-    <element id="PlayerSidebar.Volume" fg="Highlight-Text" />
+    <element id="PlayerSidebar.Volume" fg="Highlight" />
     <element id="PlayerSidebar.ProgressBar" bg="Highlight2" fg="Highlight" bdr="Highlight2" />
     <element id="PlayerSidebar.ProgressButton" fg="Highlight2" />
     \\ --- COMPACT PLAYER
@@ -275,7 +275,7 @@
     <element id="Compact.Player.Control.Default" fg="Primary-Text" />
     <element id="Compact.Player.Control.Disabled" fg="Disabled" />
     <element id="Compact.Player.Control.Highlight" fg="Highlight2" />
-    <element id="Compact.Player.Volume" fg="Highlight-Text" bdr="Highlight2" />
+    <element id="Compact.Player.Volume" fg="Highlight" bdr="Background" />
     <element id="Compact.Player.Wavebar" fg="Secondary-Text" fg2="DarkGray" />
     <element id="Compact.Player.Wavebar.Inner" fg="Primary-Text" fg2="Primary-Text" />
     <element id="Compact.Player.MetroButton.Default" fg="Highlight" bdr="Highlight-Text" />
