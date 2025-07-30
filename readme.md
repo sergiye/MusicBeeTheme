@@ -6,9 +6,10 @@
 
 # MusicBeeTheme
 
-*MusicBeeTheme is a theme for MusicBee player*
+*MusicBeeTheme is a themes for MusicBee player*
 - `sergiye` - light theme
 - `sergiyeDark` - dark theme
+- `sergiyeDarkGreen` - dark-green theme (experimental)
 
 
 ## What does it look like?
@@ -23,7 +24,7 @@ Dark theme
 
 
 ## Download Latest Version
-The latest version can be downloaded from the [releases](https://github.com/sergiye/MusicBeeTheme/releases) page.
+The latest version can be downloaded from the [releases](https://github.com/sergiye/MusicBeeTheme/releases/latest) page.
 
 ## How To Use
 It's very simple:
@@ -44,6 +45,6 @@ Pull requests are also very welcome, since I can't always get around to fixing a
 
 
 ## Conclusion
-Initially, I did this theme theme for myself and as an experiment and did not really count on any result, but now I hope that I have enough time and energy to support and develop it.
+Initially, I did this themes for myself and as an experiment and did not really count on any result, but now I hope that I have enough time and energy to support and develop it.
 
 Thank you for installing and have a nice day!
